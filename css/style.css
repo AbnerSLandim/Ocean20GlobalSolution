@@ -4,15 +4,45 @@ body{
     margin: 0;
 }
 
-#navbar{
-    background: linear-gradient(to bottom, rgba(39,58,106,1) 20%, transparent);
+#Teste{
+    font-size: 25vh;
 }
 
+#gridNavbar{
+    background: linear-gradient(to bottom, rgba(39,58,106,1) 20%, transparent);
+    display: grid;
+    grid-template-areas: 
+    "img home oceanos sobre";
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+#iconePagina{grid-area: img;}
+#navbarHome {grid-area: home;}
+#navbarOceanos { grid-area: oceanos;}
+#navbarSobre {grid-area: sobre;}
+
+#navbarHome, #navbarOceanos, #navbarSobre {
+    color: white;
+    padding-left: 15vh;
+    padding-top: 6vh;
+    height: 9vh;
+
+    font-size: 5vh;
+}
+
+#iconePagina{
+    padding-top: 2vh;
+    padding-left: 5vh;
+    height: 10vh;
+    width: 10vh;
+}
+
+
 #backgroundImage{
-    height: 100vh;
     background-image: url(../img/pexels-francesco-ungaro-2289411.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 100vh;
 }
 
 #backgroundImage img{
@@ -20,15 +50,4 @@ body{
     height: 12vh;
 }
 
-#navbarOpcoes{
-    display:inline;
-    color: white;
-    height: 100vh;
-    
-}
-#navbarOpcoes a{
-    display: inline;
-    padding-left: 10vh;
-    
-}
 

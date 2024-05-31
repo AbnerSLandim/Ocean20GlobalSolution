@@ -5,23 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="./img/favicon.png">
         <link rel="stylesheet" href="./css/style.css">
+        <script src="//code.jquery.com/jquery.min.js"></script>
         <title>Blue Ocean</title>
     </head>
     <body>
-        <div id="backgroundImage">
-            <div id="navbar">
-                <img src="./img/favicon.png" alt="iconePágina">
-                <div id="navbarOpcoes">
-                    <a>HOME</a>
-                    <a>OCEANOS</a>
-                    <a>SOBRE</a>
-                    
-                </div>
-                
-            </div>
-            
-
-        </div>
+        <div id="backgroundImage"></div>
+        
+    
         
 
 
@@ -32,7 +22,15 @@
         
         <!-- Créditos
             <a href="https://www.flaticon.com/free-icons/ocean" title="ocean icons">Ocean icons created by Freepik - Flaticon</a>
-        -->        
+        --> 
+        
+        
+        <script>
+        $.get("navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+        </script>
+
     </body>
 </html>
 

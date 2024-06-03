@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
     padding: 0;
     margin: 0;
 }
@@ -46,8 +48,23 @@ body{
 }
 
 #backgroundImage img{
-    padding: 5vh;
+    padding: 5vh; 
     height: 12vh;
 }
 
+#botao{
+    padding-top: 30vh;
+    padding-left: 10vh;
+}
+
+#botao a{
+    font-size: 5vh;
+    padding: 0.5vh;
+    color: white;
+    border: solid;
+    border-color: rgb(16,116,134);
+    background-color: rgb(16,116,134);
+    border-radius: 5px;
+
+}
 

@@ -7,6 +7,7 @@ body{
 
 }
 
+
 #Teste{
     font-size: 25vh;
 }
@@ -77,11 +78,41 @@ body{
 footer {
     background: #004f5d;
     color: #fff;
-    padding: 20px;
     text-align: center;
     margin:0;
     position: absolute;
     bottom: 0;
     width: 98%;
+    height: 45px;
 }
 
+#paginas {
+    background-color: rgb(62, 95, 146);
+    height: 30px;
+    width: 820px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#paginas ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 50px;
+}
+
+#paginas ul li a {
+    text-decoration: none;
+    color: #000;
+    display:block;    
+    color: white;
+    padding: 1px 5px;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+#paginas li a:hover {
+    color: #3f3b3b;
+    font-weight: bold;    
+}

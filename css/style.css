@@ -3,11 +3,7 @@ body{
    
     background-image: url(../img/pexels-francesco-ungaro-2289411.jpg);
     background-size: cover;
-}
-
-#backgroundImage img{
-    padding: 5vh; 
-    height: 12vh;
+    
 }
 
 #botao{
@@ -33,6 +29,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: #ddcbcb;
     font-size: 15px;
+    
 }
 
 footer {
@@ -41,7 +38,6 @@ footer {
     text-align: center;
     margin:0;
     position: absolute;
-    bottom: 0;
     width: 98%;
     height: 45px;
 }
@@ -49,7 +45,7 @@ footer {
 #paginas {
     background-color: rgb(62, 95, 146);
     height: 30px;
-    width: 300px;
+    width: 310px;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -69,10 +65,28 @@ footer {
     color: white;
     padding: 1px 5px;
     font-size: 20px;
-    font-family: Montserrat;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #paginas li a:hover {
     color: #3f3b3b;
     font-weight: bold;    
 }
+
+#inicio{
+    color: #ffffff;
+    font-size: 55px;
+    text-decoration: underline;
+}
+
+#sub{
+    font-size: 35px;
+    
+}
+
+#h1,h2,h3,h4,h5,h6{
+    font-size:23px;
+    color: #fffefe;
+}
+
+

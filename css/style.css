@@ -1,49 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body{
-    font-family: "Oswald", sans-serif;
-    font-weight: 700;
-    background-image: url(/Ocean20GlobalSolution-main/img/pexels-francesco-ungaro-2289411.jpg);
+   
+    background-image: url(../img/pexels-francesco-ungaro-2289411.jpg);
     background-size: cover;
-
 }
-
-
-#Teste{
-    font-size: 25vh;
-}
-
-#gridNavbar{
-    background: linear-gradient(to bottom, rgba(39,58,106,1) 20%, transparent);
-    display: grid;
-    grid-template-areas: 
-    "img home oceanos sobre";
-    grid-template-columns: 3fr 1fr 1fr 1fr;
-}
-
-#iconePagina{grid-area: img;}
-#navbarHome {grid-area: home;}
-#navbarOceanos { grid-area: oceanos;}
-#navbarSobre {grid-area: sobre;}
-
-#navbarHome, #navbarOceanos, #navbarSobre {
-    
-    display: inline-block;
-    font-size: 30px;
-    color: aqua;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 10px;
-    margin: 10px;
-    text-decoration: underline white;
-    
-}
-
-#iconePagina{
-    padding-top: 2vh;
-    padding-left: 5vh;
-    height: 10vh;
-    width: 10vh;
-}
-
 
 #backgroundImage img{
     padding: 5vh; 
@@ -89,7 +49,7 @@ footer {
 #paginas {
     background-color: rgb(62, 95, 146);
     height: 30px;
-    width: 820px;
+    width: 300px;
     display: flex;
     align-items: center;
     padding: 10px;

@@ -44,8 +44,8 @@ footer {
 
 #paginas {
     background-color: rgb(62, 95, 146);
-    height: 30px;
-    width: 310px;
+    height: 20px;
+    width: 180px;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -55,7 +55,6 @@ footer {
 #paginas ul li {
     display: inline-block;
     list-style: none;
-    margin-right: 50px;
 }
 
 #paginas ul li a {
